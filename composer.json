@@ -1,0 +1,21 @@
+{
+    "name": "amirzibaee/drinksmachine",
+    "authors": [
+        {
+            "name": "Amir Zibaee",
+            "email": "amirreza.zibaee@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Amirzibaee\\DrinksMachine\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "predis/predis": "2.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
